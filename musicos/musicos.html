@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Músicos Importantes</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+      }
+      .card {
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: scale(1.03);
+      }
+      .card img {
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+        height: 450px;
+      }
+      h1 {
+        font-weight: 700;
+        color: #4A90E2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="text-center mb-4"> Músicos Importantes</h1>
+      <p class="text-center text-muted mb-5">
+        Presiona la imagen o el nombre de uno de los músicos para escuchar su pieza más reconocida o conocer más sobre su vida.
+      </p>
+
+      <div class="row g-4">
+        <!-- Bach -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <a href="https://www.youtube.com/watch?v=nWI-fal7Oh8" target="_blank">
+              <img src="./images/bach.jpg" alt="Bach" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://www.worldhistory.org/trans/es/1-21857/johann-sebastian-bach/" target="_blank" class="stretched-link text-decoration-none fw-bold">
+                Johann Sebastian Bach
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beethoven -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <a href="https://www.youtube.com/watch?v=4Tr0otuiQuU" target="_blank">
+              <img src="./images/beethoven.jpg" alt="Beethoven" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://www.worldhistory.org/trans/es/1-21997/ludwig-van-beethoven/" target="_blank" class="stretched-link text-decoration-none fw-bold">
+                Ludwig van Beethoven
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mozart -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <a href="https://www.youtube.com/watch?v=Zi8vJ_lMxQI" target="_blank">
+              <img src="./images/mozart.jpg" alt="Mozart" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://historia.nationalgeographic.com.es/a/wolfgang-amadeus-mozart-gran-genio-musica_17539" target="_blank" class="stretched-link text-decoration-none fw-bold">
+                Wolfgang Amadeus Mozart
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paganini -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <a href="https://www.youtube.com/watch?v=CjDz-r65xUU" target="_blank">
+              <img src="./images/paganini.jpg" alt="Paganini" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://gacetaamigos.canal22.org.mx/gaceta22_149/pantalla-sonora-niccolo-paganini.html" target="_blank" class="stretched-link text-decoration-none fw-bold">
+                Niccolò Paganini
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vivaldi -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            <a href="https://www.youtube.com/watch?v=nGdFHJXciAQ" target="_blank">
+              <img src="./images/vivaldi.jpg" alt="Vivaldi" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://historia.nationalgeographic.com.es/a/antonio-vivaldi-o-desconocida-vida-violinista-magistral_21506" target="_blank" class="stretched-link text-decoration-none fw-bold">
+                Antonio Vivaldi
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
